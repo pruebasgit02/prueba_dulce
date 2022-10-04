@@ -1,0 +1,88 @@
+/* Clases de HEADER*/
+
+.fondoDeHeader {
+    background-image: url("IMAGENES/Central/imagenCentral.png");
+    background-position: auto;
+    background-size: cover;
+  
+
+}
+
+.colorTituloLogo {
+    color: #FFFAF4 !important;
+}
+
+.fondoTransparente {
+    background-color: transparent !important;
+    border: none;
+}
+
+/* Clases de BODY*/
+
+body {
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+
+}
+
+/* Clases de PRODUCTOS*/
+
+.colorTituloCard {
+    color: #D5AC8C !important;
+}
+
+.fondoCardProductos {
+    background-color: #000000 !important;
+    border: none;
+}
+
+.bordeBotonCardProductos {
+    color: #D5AC8C !important;
+    border-color: #D5AC8C !important;
+}
+
+.fondoCardProductosAlfajor {
+    background-color: #BCA177 !important;
+    border: none;
+}
+
+.colorTituloCardAlfajor {
+    color: #63421E !important;
+}
+
+.bordeBotonCardProductosAlfajor {
+    color: #63421E !important;
+    border-color: #63421E !important;
+}
+
+.ocultar-mostrar{
+    display:inline;
+}
+
+
+
+@media (max-width: 768px) {
+    .tamano {
+        width: 100%;
+        height: 25vh;
+
+    }
+
+    .img-card {
+
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+   
+.ocultar-logo {
+    display:none;
+}
+}
+
+@media (min-width: 768px) {
+    .ocultar-mostrar{
+        display:none;
+    }
+}
