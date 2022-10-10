@@ -59,6 +59,11 @@ body {
 .ocultar-mostrar{
     display:inline;
 }
+.icono{
+    width:80%;
+    min-width: 50px;
+    max-width: 100px;
+}
 
 
 
