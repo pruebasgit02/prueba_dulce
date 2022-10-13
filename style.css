@@ -4,7 +4,7 @@
     background-image: url("IMAGENES/Central/imagenCentral.png");
     background-position: auto;
     background-size: cover;
-  
+
 
 }
 
@@ -56,15 +56,30 @@ body {
     border-color: #63421E !important;
 }
 
-.ocultar-mostrar{
-    display:inline;
-}
-.icono{
-    width:80%;
-    min-width: 50px;
-    max-width: 100px;
+.ocultar-mostrar {
+    display: inline;
 }
 
+.icono {
+    width: 100px;
+    min-width: 50px;
+    max-width: 100px;
+    color: #fff;
+}
+
+.color-texto {
+    color: #BCA177;
+}
+
+.alfajores{
+    width: 75%;
+    min-width: 300px;
+}
+
+.img-contacto{
+    width:100%;
+    object-fit: cover;
+}
 
 
 @media (max-width: 768px) {
@@ -80,14 +95,31 @@ body {
         height: 100%;
         object-fit: cover;
     }
-   
-.ocultar-logo {
-    display:none;
-}
+
+    .ocultar-logo {
+        display: none;
+    }
+ 
 }
 
 @media (min-width: 768px) {
-    .ocultar-mostrar{
-        display:none;
+    .ocultar-mostrar {
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width: 992px) {
+    .icono {
+        width: 60px;
+    }
+}
+
+@media (max-width:576px){
+    .alfajores{
+        width: 95%;
+        min-width: 150px;
     }
 }
